@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlayStation Store - Catálogo de Juegos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <h1>🎮 PlayStation Store - Juegos</h1>
+    <button id="btn-cart" class="cart-button">
+      🛒 Ver Cesta
+      <span id="cart-counter" class="badge">0</span>
+    </button>
+  </header>
+
+  <section class="controls-container">
+    <div class="category-filters" id="category-buttons"></div>
+
+    <div class="extra-controls">
+      <input type="text" id="search-input" placeholder="Buscar juego...">
+
+      <select id="sort-select">
+        <option value="default">Ordenar por...</option>
+        <option value="price-asc">Precio: Menor a Mayor</option>
+        <option value="price-desc">Precio: Mayor a Menor</option>
+        <option value="name-asc">Nombre (A-Z)</option>
+        <option value="stock-desc">Stock Disponible</option>
+      </select>
+    </div>
+  </section>
+
+  <main>
+    <div id="product-grid" class="product-grid"></div>
+  </main>
+
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close-btn">&times;</span>
+      <h2>Cesta de la Compra</h2>
+
+      <div id="user-info" class="user-info"></div>
+
+      <div id="cart-items" class="cart-items-container"></div>
+
+      <div class="cart-footer">
+        <h3>Total: <span id="cart-total">0.00</span>€</h3>
+        <button id="checkout-btn" class="checkout-btn">Finalizar Compra</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

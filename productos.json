@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "God of War Ragnarök",
+    "description": "Embárcate en un viaje épico y emotivo junto a Kratos y Atreus.",
+    "price": 69.99,
+    "stock": 12,
+    "category": "accion"
+  },
+  {
+    "id": 2,
+    "name": "Marvel's Spider-Man 2",
+    "description": "Balancea, salta y usa las nuevas alardes alas de web.",
+    "price": 79.99,
+    "stock": 15,
+    "category": "accion"
+  },
+  {
+    "id": 3,
+    "name": "The Last of Us Parte I",
+    "description": "Disfruta del aclamado título reconstruido para PS5.",
+    "price": 59.99,
+    "stock": 0,
+    "category": "accion"
+  },
+  {
+    "id": 4,
+    "name": "Elden Ring",
+    "description": "Un vasto mundo de fantasía oscura creado por Hidetaka Miyazaki y George R.R. Martin.",
+    "price": 49.99,
+    "stock": 7,
+    "category": "accion"
+  },
+  {
+    "id": 5,
+    "name": "Horizon Forbidden West",
+    "description": "Explora tierras lejanas y enfréntate a máquinas colosales.",
+    "price": 39.99,
+    "stock": 10,
+    "category": "accion"
+  },
+  {
+    "id": 6,
+    "name": "EA Sports FC 24",
+    "description": "El juego de fútbol por excelencia con licencias oficiales.",
+    "price": 49.99,
+    "stock": 25,
+    "category": "deportes"
+  },
+  {
+    "id": 7,
+    "name": "NBA 2K24",
+    "description": "Vive la emoción del mejor baloncesto del mundo.",
+    "price": 54.99,
+    "stock": 0,
+    "category": "deportes"
+  },
+  {
+    "id": 8,
+    "name": "Gran Turismo 7",
+    "description": "La experiencia de conducción real definitiva con cientos de coches.",
+    "price": 69.99,
+    "stock": 8,
+    "category": "deportes"
+  },
+  {
+    "id": 9,
+    "name": "WWE 2K24",
+    "description": "Acción trepidante sobre el ring con tus luchadores favoritos.",
+    "price": 64.99,
+    "stock": 14,
+    "category": "deportes"
+  },
+  {
+    "id": 10,
+    "name": "UFC 5",
+    "description": "Gráficos hiperrealistas y un sistema de daños totalmente renovado.",
+    "price": 59.99,
+    "stock": 6,
+    "category": "deportes"
+  },
+  {
+    "id": 11,
+    "name": "Hogwarts Legacy",
+    "description": "Juega en el mundo mágico de los años 1800 escribiendo tu propia historia.",
+    "price": 59.99,
+    "stock": 20,
+    "category": "aventura"
+  },
+  {
+    "id": 12,
+    "name": "Uncharted: Colección Legado de los Ladrones",
+    "description": "Busca fortuna con Nathan Drake y Chloe Frazer.",
+    "price": 39.99,
+    "stock": 5,
+    "category": "aventura"
+  },
+  {
+    "id": 13,
+    "name": "Resident Evil 4 Remake",
+    "description": "Supervivencia y terror reimaginados con una jugabilidad moderna.",
+    "price": 49.99,
+    "stock": 0,
+    "category": "aventura"
+  },
+  {
+    "id": 14,
+    "name": "Final Fantasy XVI",
+    "description": "Una entrega oscura y madura de la aclamada saga de rol y acción.",
+    "price": 69.99,
+    "stock": 9,
+    "category": "aventura"
+  },
+  {
+    "id": 15,
+    "name": "Cyberpunk 2077: Ultimate Edition",
+    "description": "RPG de mundo abierto ambientado en Night City junto a la expansión Phantom Liberty.",
+    "price": 59.99,
+    "stock": 11,
+    "category": "aventura"
+  }
+]
