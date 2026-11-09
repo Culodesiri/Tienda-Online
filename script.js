@@ -43,10 +43,10 @@ async function loadData() {
 function setupEventListeners() {
   searchInput.addEventListener('input', renderProducts);
   sortSelect.addEventListener('change', renderProducts);
-
+  
   cartBtn.addEventListener('click', openCartModal);
   closeModal.addEventListener('click', () => cartModal.style.display = 'none');
-
+  
   window.addEventListener('click', (e) => {
     if (e.target === cartModal) cartModal.style.display = 'none';
   });
@@ -85,8 +85,8 @@ function renderProducts() {
 
   const searchText = searchInput.value.toLowerCase().trim();
   if (searchText) {
-    filtered = filtered.filter(p =>
-      p.name.toLowerCase().includes(searchText) ||
+    filtered = filtered.filter(p => 
+      p.name.toLowerCase().includes(searchText) || 
       p.description.toLowerCase().includes(searchText)
     );
   }
@@ -101,7 +101,14 @@ function renderProducts() {
     const card = document.createElement('div');
     card.className = 'product-card';
     card.innerHTML = `
-      <div>
+      <div class="product-info">
+        <img
+          class="product-image"
+          src="${product.image}"
+          alt="Portada de ${product.name}"
+          loading="lazy"
+          onerror="this.onerror=null; this.src='https://placehold.co/640x360/17243a/ffffff?text=Imagen+no+disponible';"
+        >
         <h3>${product.name}</h3>
         <p>${product.description}</p>
       </div>
@@ -116,7 +123,7 @@ function renderProducts() {
 
 function addToCart(productId) {
   const product = products.find(p => p.id === productId);
-
+  
   cart.push(productId);
   saveCart();
   updateCartCounter();
@@ -133,14 +140,14 @@ function updateCartCounter() {
 
 function openCartModal() {
   userInfo.innerHTML = `📦 <strong>Enviando pedido a:</strong> ${userData.name}, ${userData.address}`;
-
+  
   renderCartItems();
   cartModal.style.display = 'flex';
 }
 
 function renderCartItems() {
   cartItemsContainer.innerHTML = '';
-
+  
   if (cart.length === 0) {
     cartItemsContainer.innerHTML = '<p>La cesta está vacía.</p>';
     cartTotal.textContent = '0.00';
@@ -185,7 +192,7 @@ function changeQuantity(productId, newQuantity) {
   for (let i = 0; i < quantity; i++) {
     cart.push(productId);
   }
-
+  
   saveCart();
   updateCartCounter();
   renderCartItems();
@@ -203,7 +210,7 @@ function handleCheckout() {
     showToast("La cesta está vacía.");
     return;
   }
-
+  
   showToast("¡Pedido de videojuegos finalizado con éxito!");
   cart = [];
   saveCart();
@@ -215,9 +222,9 @@ function showToast(message) {
   const toast = document.createElement('div');
   toast.className = 'toast';
   toast.textContent = message;
-
+  
   toastContainer.appendChild(toast);
-
+  
   setTimeout(() => {
     toast.remove();
   }, 3000);

@@ -5,7 +5,8 @@
     "description": "Embárcate en un viaje épico y emotivo junto a Kratos y Atreus.",
     "price": 69.99,
     "stock": 12,
-    "category": "accion"
+    "category": "accion",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/header.jpg"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Balancea, salta y usa las nuevas alardes alas de web.",
     "price": 79.99,
     "stock": 15,
-    "category": "accion"
+    "category": "accion",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/header.jpg"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "description": "Disfruta del aclamado título reconstruido para PS5.",
     "price": 59.99,
     "stock": 0,
-    "category": "accion"
+    "category": "accion",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "description": "Un vasto mundo de fantasía oscura creado por Hidetaka Miyazaki y George R.R. Martin.",
     "price": 49.99,
     "stock": 7,
-    "category": "accion"
+    "category": "accion",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "description": "Explora tierras lejanas y enfréntate a máquinas colosales.",
     "price": 39.99,
     "stock": 10,
-    "category": "accion"
+    "category": "accion",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/header.jpg"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "description": "El juego de fútbol por excelencia con licencias oficiales.",
     "price": 49.99,
     "stock": 25,
-    "category": "deportes"
+    "category": "deportes",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/header.jpg"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "description": "Vive la emoción del mejor baloncesto del mundo.",
     "price": 54.99,
     "stock": 0,
-    "category": "deportes"
+    "category": "deportes",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2338770/header.jpg"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "description": "La experiencia de conducción real definitiva con cientos de coches.",
     "price": 69.99,
     "stock": 8,
-    "category": "deportes"
+    "category": "deportes",
+    "image": "https://placehold.co/640x360/17243a/ffffff?text=Gran%20Turismo%207"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "description": "Acción trepidante sobre el ring con tus luchadores favoritos.",
     "price": 64.99,
     "stock": 14,
-    "category": "deportes"
+    "category": "deportes",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2315690/header.jpg"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "description": "Gráficos hiperrealistas y un sistema de daños totalmente renovado.",
     "price": 59.99,
     "stock": 6,
-    "category": "deportes"
+    "category": "deportes",
+    "image": "https://placehold.co/640x360/17243a/ffffff?text=UFC%205"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "description": "Juega en el mundo mágico de los años 1800 escribiendo tu propia historia.",
     "price": 59.99,
     "stock": 20,
-    "category": "aventura"
+    "category": "aventura",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "description": "Busca fortuna con Nathan Drake y Chloe Frazer.",
     "price": 39.99,
     "stock": 5,
-    "category": "aventura"
+    "category": "aventura",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1659420/header.jpg"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "description": "Supervivencia y terror reimaginados con una jugabilidad moderna.",
     "price": 49.99,
     "stock": 0,
-    "category": "aventura"
+    "category": "aventura",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg"
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "description": "Una entrega oscura y madura de la aclamada saga de rol y acción.",
     "price": 69.99,
     "stock": 9,
-    "category": "aventura"
+    "category": "aventura",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2515020/header.jpg"
   },
   {
     "id": 15,
@@ -117,6 +131,7 @@
     "description": "RPG de mundo abierto ambientado en Night City junto a la expansión Phantom Liberty.",
     "price": 59.99,
     "stock": 11,
-    "category": "aventura"
+    "category": "aventura",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
   }
 ]
